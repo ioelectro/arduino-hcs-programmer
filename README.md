@@ -1,4 +1,4 @@
-# HCS Programmer
+# Arduino HCS Programmer
 Programmer for HCS301 EEPROM Code Hopping using Arduino
 
 ## Software
