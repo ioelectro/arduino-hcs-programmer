@@ -54,18 +54,12 @@ void setup()
   digitalWrite(LED_PIN,LOW);
 }
 
-void uart_puts(char *str)
-{
-  while(*str)Serial.print(*str++);
-}
-
 void loop()
 {
   if(Serial.available())
   {
     if(Serial.readBytes(&Byte,1))
     {
-    
       if(Byte=='!')
       {
         digitalWrite(LED_PIN,HIGH);
