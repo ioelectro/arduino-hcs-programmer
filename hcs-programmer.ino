@@ -135,7 +135,7 @@ void loop()
         j=0;
         for(i=0;i<12;i++)if(Data[i]!=DataVF[i])j++;
         if(j)Serial.println("eVerify not match!");
-        else Serial.println("<Verify  Done Successfuly!");
+        else Serial.println("<Verify Done Successfuly!");
 
       }
     }
