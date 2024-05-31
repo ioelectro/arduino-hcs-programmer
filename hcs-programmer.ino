@@ -85,6 +85,7 @@ void loop()
         config_pwm_out();
 
         digitalWrite(VDD_PIN,HIGH);
+        delay(7);//StartUp for FMD
         digitalWrite(CLK_PIN,HIGH);
         digitalWrite(PWM_PIN,LOW);
         delay(4);
