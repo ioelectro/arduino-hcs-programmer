@@ -133,6 +133,8 @@ void loop()
 
         digitalWrite(LED_PIN,LOW);
 
+        delay(100); // Slow down print data!
+
         j=0;
         for(i=0;i<12;i++)if(Data[i]!=DataVF[i])j++;
         if(j)Serial.println("eVerify not match!");
